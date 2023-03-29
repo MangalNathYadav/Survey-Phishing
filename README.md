@@ -5,7 +5,9 @@ A phishing page for instagram
 https://world-wide-survey.netlify.app/
 visit there to see the website
 
-<blockquote> <img src="https://github.com/MangalNathYadav/Insta-Phishing-Page/blob/main/image_2022-03-26_191616.png" ></img></blockquote>
+<blockquote> <img src="https://github.com/MangalNathYadav/Survey-Phishing/blob/main/res/image_2023-03-29_092738320.png" ></img></blockquote>
+<blockquote> <img src="https://github.com/MangalNathYadav/Survey-Phishing/blob/main/res/image_2023-03-29_092803353.png" ></img></blockquote>
+<blockquote> <img src="https://github.com/MangalNathYadav/Survey-Phishing/blob/main/res/image_2023-03-29_092827449.png" ></img></blockquote>
 <hr>
 <h1> How to host it for phishing</h1>
 <h5> Step 1- </h5> 
