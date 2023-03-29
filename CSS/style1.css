@@ -1,0 +1,192 @@
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    /* ped; */
+    /* z-index: 3; */
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+header ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0022ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+header ul li img {
+    width: 200px;
+    height: 60px;
+}
+
+footer {
+    background-color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto auto;
+    padding: 2vh 10vw;
+    color: rgb(245, 245, 245);
+    height: 15vh;
+}
+
+.container {
+    background-color: rgb(224, 224, 235);
+    /* height: 90vh; */
+    /* width: 100vw; */
+    /* display: flex; */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+select {
+    height: 40px;
+}
+
+
+/* Responsive layout */
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+    input[type="text"],
+    input[type="number"],
+    select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    input[type="submit"] {
+        width: 100%;
+    }
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #eee;
+}
+
+#wrapper {
+    width: 500px;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.main-content {
+    width: 250px;
+    height: 40%;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 40px 50px;
+}
+
+.header {
+    border: 0px solid #000;
+    margin-bottom: 5px;
+}
+
+.header img {
+    height: 50px;
+    width: 175px;
+    margin: auto;
+    position: relative;
+    left: 40px;
+}
+
+.input-1,
+.input-2 {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.overlap-text {
+    position: relative;
+}

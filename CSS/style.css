@@ -1,0 +1,225 @@
+    /* * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        background-color: #f2f2f2;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: #333;
+    }
+    
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #0022ff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    header {
+        background-color: #f0f0f0;
+        padding: 20px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        /* ped; */
+    /* z-index: 3; 
+    
+    
+    ul li {
+        list-style-type: none;
+        display: inline;
+        padding: 10px;
+    }
+    
+    header ul li img {
+        width: 200px;
+        height: 60px;
+    }
+    
+    footer {
+        background-color: #000000;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto auto;
+        padding: 2vh 10vw;
+        color: white;
+        height: 15vh;
+    }
+    
+    .container {
+        /* position: absolute; 
+        height: 70vh;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin: 5vh;
+    }
+    
+    .main {
+        font-size: 2vw;
+        width: 40vw;
+        align-self: center;
+    }
+    
+    
+    
+    button {
+        padding: 10px;
+        margin: 2vh;
+        margin-left: 10vh;
+    } */
+    /* Default styles for all screen sizes */
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+    
+    header {
+        background-color: #fbfbfb;
+        color: #090909;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        /* font-size: 20px; */
+        /* font-weight: bold; */
+        margin: 5px;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+    }
+    
+    header ul li img {
+        width: 200px;
+        height: 60px;
+    }
+    
+    nav ul {
+        /* margin-topvh; */
+        list-style: none;
+        display: flex;
+    }
+    
+    nav ul li {
+        margin-right: 20px;
+        list-style-type: none;
+        display: inline;
+        padding: 10px;
+    }
+    
+    nav ul li a {
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #0022ff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+    }
+    
+    .main {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    
+    .main pre {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    button {
+        background-color: #8a7e7e;
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        margin-top: 20px;
+    }
+    
+    button:hover {
+        background-color: #ffffff;
+    }
+    
+    .image {
+        width: 45%;
+    }
+    
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+    
+    footer {
+        background-color: black;
+        color: rgb(245, 245, 245);
+        ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        margin-top: 20px;
+    }
+    
+    footer p {
+        font-size: 16px;
+        text-align: center;
+    }
+    /* Media queries for responsive design */
+    
+    @media only screen and (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .main,
+        .image {
+            width: 100%;
+        }
+        .main pre {
+            font-size: 16px;
+            text-align: center;
+        }
+    }

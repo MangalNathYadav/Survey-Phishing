@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World-Wide Survey: People Living</title>
+    <link rel="stylesheet" href="CSS/style1.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><img src="res/logo.png" alt="logo"></li>
+                <li><a href="index.html"> Home</a></li>
+
+                <li><a href="survey.html "> Your Survey</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <hr color="black ">
+
+    <div class="container ">
+
+
+
+        <h1>World-Wide Survey: People Living</h1>
+        <form name="details" netlify action="next.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+        <option value="">--Please select--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="non-binary">Non-Binary</option>
+        <option value="prefer-not-to-say">Prefer Not to Say</option>
+      </select><br><br>
+
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required><br><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required><br><br>
+
+            <label for="language">Primary Language:</label>
+            <input type="text" id="language" name="language" required><br><br>
+
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" name="occupation" required><br><br>
+
+            <label for="income">Income:</label>
+            <input type="number" id="income" name="income" required><br><br>
+
+            <label for="marital-status">Marital Status:</label>
+            <select id="marital-status" name="marital-status" required>
+        <option value="">--Please select--</option>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="divorced">Divorced</option>
+        <option value="widowed">Widowed</option>
+      </select><br><br>
+
+            <label for="children">Number of Children:</label>
+            <input type="number" id="children" name="children" required><br><br>
+
+            <label for="education-level">Highest Education Level:</label>
+            <input type="text" id="education-level" name="education-level" required><br><br>
+
+            <label for="political-views">Political Views:</label>
+            <input type="text" id="political-views" name="political-views" required><br><br>
+
+            <label for="religion">Religion:</label>
+            <input type="text" id="religion" name="religion" required><br><br>
+
+            <label for="hobbies">Hobbies:</label>
+            <input type="text" id="hobbies" name="hobbies" required><br><br>
+
+            <label for="interests">Interests:</label>
+            <input type="text" id="interests" name="interests" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+    <footer>
+        <p>All Right reserved &copy; Copyright World_wide Survey</p>
+    </footer>
+</body>
+
+</html>
